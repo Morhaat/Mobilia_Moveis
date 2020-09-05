@@ -1,0 +1,77 @@
+ /*Reset CSS*/
+ *{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgba(226, 201, 176, 0.4);
+}
+
+#btnMenu{
+    font-size: 30px;
+    color: rgb(112, 90, 76);
+}
+
+#menu{
+    height: 50px;
+    margin-top: 35px;
+}
+
+#menu nav{
+    background-color: rgb(112, 90, 76);
+    border-radius: 5px;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 9px;
+}
+
+#menu a{
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(211, 192, 170);
+}
+
+#menu #ativo{
+    background-color: rgb(73, 58, 49);
+}
+
+#menu a:hover{
+    background-color: rgb(73, 58, 49);
+}
+
+
+#artigos article a{
+    text-decoration: none;
+    color: black;
+}
+
+#mensagem{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#FIMGS a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #544444;
+    font-size: 30px;
+    padding: 10px;
+}
+
